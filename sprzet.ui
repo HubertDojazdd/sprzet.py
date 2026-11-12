@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>536</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>291</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ewidencja sprzetu</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>181</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Dodaj zgloszenie</string>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>210</y>
+       <width>131</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>osoba odpowiedzialna</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>wydano/zwrocono</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>120</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>laptop</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>tablet</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>projektor</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>aparat</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>sprzęt sporotowy</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>inne</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>101</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>wydano</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>zwrócono</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>240</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>np Anna Kowalska</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>100</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>kategoria</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>290</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>270</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Miejsce wydania </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>320</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Data</string>
+     </property>
+    </widget>
+    <widget class="QDateEdit" name="dateEdit">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>340</y>
+       <width>110</width>
+       <height>22</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>380</y>
+       <width>91</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Dodaj zgłoszenie</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>180</y>
+       <width>113</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>160</y>
+       <width>131</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>model</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>80</y>
+      <width>611</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Rejestr i dopasowania</string>
+    </property>
+    <widget class="QComboBox" name="comboBox_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>50</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Wszystkie</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Wydano</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Zwrocono</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Filtrowanie</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>30</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Filtr Kategorii</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_4">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>60</y>
+       <width>69</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>laptop</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>tablet</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>projektor</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>aparat</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>sprzęt sporotowy</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>inne</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>30</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>status</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_5">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>60</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Wszystkie</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Otwarte</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Zamniiete</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>32</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>13</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Zastosuj</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>561</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>69</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>typ</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Kategoria</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>model</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>osoba</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>miejsce</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>data</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>status</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>441</width>
+       <height>161</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>240</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Wyszukaj</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>340</y>
+       <width>131</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Oznacz jako zamkniete</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>480</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSzkolny_magazyn_Ewidencja_sprzetu">
+    <property name="title">
+     <string>Szkolny magazyn - Ewidencja sprzetu</string>
+    </property>
+   </widget>
+   <addaction name="menuSzkolny_magazyn_Ewidencja_sprzetu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
